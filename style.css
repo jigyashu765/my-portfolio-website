@@ -1,0 +1,110 @@
+/* https://getcssscan.com/css-buttons-examples */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #1f1f38;
+}
+
+/* gloable Css */
+.t-white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-section{
+    width: 100%;
+}
+
+.button-55 {
+  align-self: center;
+  background-color: #ffffff52;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #ffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+/* header css */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-bottom: .5px solid #ffffff52;
+    background-color: #1f1f38;
+}
+
+.navbar{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left p{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav-right a{
+    color: aliceblue;
+    padding: 5px 8px;
+    margin: 0px 5px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.inner-home{
+    border: 1px solid red;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-home .home-right img{
+    width: 300px;
+    border-radius: 50%;
+}
