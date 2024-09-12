@@ -16,6 +16,18 @@ body{
     color: white;
 }
 
+.t-dark{
+    color: hsl(240deg 8% 43%);
+}
+
+.center-heading{
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
 a{
     text-decoration: none;
 }
@@ -26,7 +38,7 @@ a{
 
 .button-55 {
   align-self: center;
-  background-color: #ffffff52;
+  background-color: #4db5ff;
   background-image: none;
   background-position: 0 90%;
   background-repeat: repeat no-repeat;
@@ -58,6 +70,8 @@ a{
 .button-55:hover {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
+  background-color: #fff;
+  color: #1f1f38;
 }
 
 /* header css */
@@ -94,9 +108,10 @@ header{
     letter-spacing: 2px;
 }
 
+/* Home css */
 
 .inner-home{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     margin: 20px auto;
     display: flex;
@@ -107,4 +122,39 @@ header{
 .inner-home .home-right img{
     width: 300px;
     border-radius: 50%;
+}
+
+#myName{
+    font-size: 50px;
+}
+
+.home-left p{
+    margin-bottom: 10px;
+}
+
+.home-left-div{
+    margin: 30px 0px;
+}
+
+.inner-home .home-left .home-text{
+    font-size: 20px;
+}
+
+
+/* About Me Css */
+.About-me .inner-home{
+    flex-direction: row-reverse;
+}
+
+.About-me .inner-home .home-left{
+    width: 50%;
+}
+
+#About-me-Name{
+    margin-bottom: 20px;
+}
+
+.About-me .inner-home .home-right img{
+    width: 300px;
+    border-radius: 20%
 }
